@@ -59,7 +59,7 @@ void exampleThis() {
         char model[50];
     } Car;
 
-    Car car = {"Fusca"};
+    Car car = {"Beetle"};
     printf("Car model: %s\n", car.model);
 }
 

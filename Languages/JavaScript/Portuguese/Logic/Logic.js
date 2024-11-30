@@ -136,7 +136,7 @@ class Pessoa {
 }
 
 function exemploClasseObjetos() {
-    let pessoa1 = new Pessoa("Maria", 30);  // Criação de um objeto da classe Pessoa
+    let pessoa1 = new Pessoa("Nico", 30);  // Criação de um objeto da classe Pessoa
     pessoa1.apresentar();  // Chamada do método
 }
 

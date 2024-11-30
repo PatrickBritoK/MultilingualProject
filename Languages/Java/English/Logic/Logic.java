@@ -150,7 +150,7 @@ class Person {
 }
 
 public static void exampleClassObjects() {
-    Person person1 = new Person("Maria", 30);  // Creating an object of the Person class
+    Person person1 = new Person("Nico", 30);  // Creating an object of the Person class
     person1.introduce();  // Calling the method
 }
 

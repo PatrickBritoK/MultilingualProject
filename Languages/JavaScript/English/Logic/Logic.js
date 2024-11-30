@@ -133,7 +133,7 @@ class Person {
 }
 
 function classObjectExample() {
-    let person1 = new Person("Maria", 30);  // Creating an object from the Person class
+    let person1 = new Person("Nico", 30);  // Creating an object from the Person class
     person1.introduce();  // Calling the method
 }
 
