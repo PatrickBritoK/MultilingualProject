@@ -1,0 +1,134 @@
+/* Applying all properties to a generic selector to prevent errors */
+* {
+    /* Text properties */
+    color: initial; /* Text color */
+    font-family: initial; /* Font family */
+    font-size: initial; /* Font size */
+    font-style: initial; /* Font style: normal, italic, etc. */
+    font-variant: initial; /* Font variant */
+    font-weight: initial; /* Font weight */
+    letter-spacing: initial; /* Letter spacing */
+    line-height: initial; /* Line height */
+    text-align: initial; /* Text alignment */
+    text-decoration: initial; /* Text decoration (underline, line-through, etc.) */
+    text-indent: initial; /* Text indentation */
+    text-overflow: initial; /* How to handle text overflow */
+    text-shadow: initial; /* Shadow effect on text */
+    text-transform: initial; /* Text case transformation */
+    white-space: initial; /* Handling of white spaces */
+    word-break: initial; /* Word breaking rules */
+    word-spacing: initial; /* Space between words */
+    word-wrap: initial; /* Wrapping long words */
+    writing-mode: initial; /* Text direction (horizontal, vertical) */
+
+    /* Background properties */
+    background: initial; /* Shorthand for background */
+    background-attachment: initial; /* Background scroll behavior */
+    background-blend-mode: initial; /* Background blending mode */
+    background-clip: initial; /* Painting area of the background */
+    background-color: initial; /* Background color */
+    background-image: initial; /* Background image */
+    background-origin: initial; /* Origin of the background */
+    background-position: initial; /* Background position */
+    background-repeat: initial; /* Background repeat behavior */
+    background-size: initial; /* Background size */
+
+    /* Border properties */
+    border: initial; /* Shorthand for border */
+    border-width: initial; /* Border width */
+    border-style: initial; /* Border style */
+    border-color: initial; /* Border color */
+    border-radius: initial; /* Rounded corners */
+    border-collapse: initial; /* Collapse borders in tables */
+    border-spacing: initial; /* Space between table borders */
+    border-image: initial; /* Image as a border */
+    border-image-outset: initial; /* Border image outset */
+    border-image-repeat: initial; /* Border image repeat behavior */
+    border-image-slice: initial; /* Slicing the border image */
+    border-image-source: initial; /* Border image source */
+    border-image-width: initial; /* Border image width */
+
+    /* Margin and padding properties */
+    margin: initial; /* Shorthand for margins */
+    margin-top: initial; /* Top margin */
+    margin-right: initial; /* Right margin */
+    margin-bottom: initial; /* Bottom margin */
+    margin-left: initial; /* Left margin */
+    padding: initial; /* Shorthand for padding */
+    padding-top: initial; /* Top padding */
+    padding-right: initial; /* Right padding */
+    padding-bottom: initial; /* Bottom padding */
+    padding-left: initial; /* Left padding */
+
+    /* Positioning properties */
+    position: initial; /* Positioning type */
+    top: initial; /* Top offset */
+    right: initial; /* Right offset */
+    bottom: initial; /* Bottom offset */
+    left: initial; /* Left offset */
+    z-index: initial; /* Stacking order */
+
+    /* Display and flexbox properties */
+    display: initial; /* Display type */
+    flex: initial; /* Shorthand for flex properties */
+    flex-grow: initial; /* Flex grow factor */
+    flex-shrink: initial; /* Flex shrink factor */
+    flex-basis: initial; /* Flex basis size */
+    align-items: initial; /* Alignment of items */
+    align-content: initial; /* Alignment of flex lines */
+    align-self: initial; /* Individual item alignment */
+    justify-content: initial; /* Content alignment */
+    order: initial; /* Item order */
+    gap: initial; /* Space between items */
+
+    /* Grid properties */
+    grid: initial; /* Shorthand for grid properties */
+    grid-template-columns: initial; /* Grid columns definition */
+    grid-template-rows: initial; /* Grid rows definition */
+    grid-column: initial; /* Column occupied by the item */
+    grid-row: initial; /* Row occupied by the item */
+    grid-area: initial; /* Grid area definition */
+    grid-gap: initial; /* Space between grid cells */
+
+    /* Size properties */
+    width: initial; /* Element width */
+    height: initial; /* Element height */
+    max-width: initial; /* Maximum width */
+    max-height: initial; /* Maximum height */
+    min-width: initial; /* Minimum width */
+    min-height: initial; /* Minimum height */
+
+    /* Shadow properties */
+    box-shadow: initial; /* Box shadow */
+
+    /* Animation properties */
+    animation: initial; /* Shorthand for animations */
+    animation-name: initial; /* Name of the animation */
+    animation-duration: initial; /* Animation duration */
+    animation-timing-function: initial; /* Timing function for animation */
+    animation-delay: initial; /* Delay before animation starts */
+    animation-iteration-count: initial; /* Number of animation iterations */
+    animation-direction: initial; /* Animation direction */
+
+    /* Transition properties */
+    transition: initial; /* Shorthand for transitions */
+    transition-property: initial; /* Property to animate */
+    transition-duration: initial; /* Transition duration */
+    transition-timing-function: initial; /* Timing function for transition */
+    transition-delay: initial; /* Delay before transition starts */
+
+    /* Visibility properties */
+    visibility: initial; /* Visibility of the element */
+    opacity: initial; /* Element opacity */
+
+    /* Other properties */
+    overflow: initial; /* Handling of overflow */
+    clip: auto; /* Clipping region */
+    cursor: initial; /* Mouse cursor */
+    box-sizing: initial; /* Box model type */
+    content: initial; /* Generated content */
+    filter: initial; /* Visual filters (blur, brightness, etc.) */
+    resize: initial; /* Resizing behavior */
+    perspective: initial; /* 3D perspective */
+    transform: initial; /* Transformations (rotate, scale, etc.) */
+}

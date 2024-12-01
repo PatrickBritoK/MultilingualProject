@@ -1,0 +1,134 @@
+/* Aplicar todas as propriedades a um elemento genérico */
+* {
+    /* Propriedades de texto */
+    color: initial; /* Cor do texto */
+    font-family: initial; /* Fonte do texto */
+    font-size: initial; /* Tamanho do texto */
+    font-style: initial; /* Estilo da fonte */
+    font-variant: initial; /* Variante da fonte */
+    font-weight: initial; /* Peso da fonte */
+    letter-spacing: initial; /* Espaçamento entre letras */
+    line-height: initial; /* Altura da linha */
+    text-align: initial; /* Alinhamento do texto */
+    text-decoration: initial; /* Decoração do texto */
+    text-indent: initial; /* Recuo do texto */
+    text-overflow: initial; /* Tratamento de overflow do texto */
+    text-shadow: initial; /* Sombra no texto */
+    text-transform: initial; /* Transformação do texto */
+    white-space: initial; /* Como lidar com espaços em branco */
+    word-break: initial; /* Quebra de palavras */
+    word-spacing: initial; /* Espaçamento entre palavras */
+    word-wrap: initial; /* Quebra de linha para palavras longas */
+    writing-mode: initial; /* Direção do texto */
+
+    /* Propriedades de fundo */
+    background: initial; /* Atalho para fundo */
+    background-attachment: initial; /* Comportamento do fundo */
+    background-blend-mode: initial; /* Modo de mesclagem do fundo */
+    background-clip: initial; /* Área de pintura do fundo */
+    background-color: initial; /* Cor de fundo */
+    background-image: initial; /* Imagem de fundo */
+    background-origin: initial; /* Origem do fundo */
+    background-position: initial; /* Posição do fundo */
+    background-repeat: initial; /* Repetição do fundo */
+    background-size: initial; /* Tamanho do fundo */
+
+    /* Propriedades de borda */
+    border: initial; /* Atalho para borda */
+    border-width: initial; /* Largura da borda */
+    border-style: initial; /* Estilo da borda */
+    border-color: initial; /* Cor da borda */
+    border-radius: initial; /* Bordas arredondadas */
+    border-collapse: initial; /* Colapso de borda em tabelas */
+    border-spacing: initial; /* Espaçamento de bordas em tabelas */
+    border-image: initial; /* Imagem como borda */
+    border-image-outset: initial; /* Deslocamento da borda */
+    border-image-repeat: initial; /* Repetição da imagem da borda */
+    border-image-slice: initial; /* Divisão da imagem da borda */
+    border-image-source: initial; /* Origem da imagem da borda */
+    border-image-width: initial; /* Largura da imagem da borda */
+
+    /* Propriedades de margem e preenchimento */
+    margin: initial; /* Atalho para margens */
+    margin-top: initial; /* Margem superior */
+    margin-right: initial; /* Margem direita */
+    margin-bottom: initial; /* Margem inferior */
+    margin-left: initial; /* Margem esquerda */
+    padding: initial; /* Atalho para preenchimento */
+    padding-top: initial; /* Preenchimento superior */
+    padding-right: initial; /* Preenchimento direito */
+    padding-bottom: initial; /* Preenchimento inferior */
+    padding-left: initial; /* Preenchimento esquerdo */
+
+    /* Propriedades de posicionamento */
+    position: initial; /* Tipo de posicionamento */
+    top: initial; /* Distância do topo */
+    right: initial; /* Distância da direita */
+    bottom: initial; /* Distância da base */
+    left: initial; /* Distância da esquerda */
+    z-index: initial; /* Ordem na pilha */
+
+    /* Propriedades de display e flexbox */
+    display: initial; /* Tipo de exibição */
+    flex: initial; /* Atalho para flex */
+    flex-grow: initial; /* Crescimento do item flexível */
+    flex-shrink: initial; /* Encolhimento do item flexível */
+    flex-basis: initial; /* Base do item flexível */
+    align-items: initial; /* Alinhamento dos itens */
+    align-content: initial; /* Alinhamento das linhas */
+    align-self: initial; /* Alinhamento individual */
+    justify-content: initial; /* Justificação do conteúdo */
+    order: initial; /* Ordem do item */
+    gap: initial; /* Espaçamento entre itens */
+
+    /* Propriedades de grid */
+    grid: initial; /* Atalho para grid */
+    grid-template-columns: initial; /* Colunas do grid */
+    grid-template-rows: initial; /* Linhas do grid */
+    grid-column: initial; /* Coluna ocupada pelo item */
+    grid-row: initial; /* Linha ocupada pelo item */
+    grid-area: initial; /* Área do grid */
+    grid-gap: initial; /* Espaçamento entre células */
+
+    /* Propriedades de tamanho */
+    width: initial; /* Largura */
+    height: initial; /* Altura */
+    max-width: initial; /* Largura máxima */
+    max-height: initial; /* Altura máxima */
+    min-width: initial; /* Largura mínima */
+    min-height: initial; /* Altura mínima */
+
+    /* Propriedades de sombra */
+    box-shadow: initial; /* Sombra da caixa */
+
+    /* Propriedades de animação */
+    animation: initial; /* Atalho para animações */
+    animation-name: initial; /* Nome da animação */
+    animation-duration: initial; /* Duração */
+    animation-timing-function: initial; /* Função de tempo */
+    animation-delay: initial; /* Atraso */
+    animation-iteration-count: initial; /* Número de execuções */
+    animation-direction: initial; /* Direção da animação */
+
+    /* Propriedades de transição */
+    transition: initial; /* Atalho para transições */
+    transition-property: initial; /* Propriedade a animar */
+    transition-duration: initial; /* Duração */
+    transition-timing-function: initial; /* Função de tempo */
+    transition-delay: initial; /* Atraso */
+
+    /* Propriedades de visibilidade */
+    visibility: initial; /* Visibilidade */
+    opacity: initial; /* Opacidade */
+
+    /* Outras propriedades */
+    overflow: initial; /* Como lidar com overflow */
+    clip: auto; /* Recorte */
+    cursor: initial; /* Tipo de cursor */
+    box-sizing: initial; /* Box model */
+    content: initial; /* Conteúdo gerado */
+    filter: initial; /* Filtros visuais */
+    resize: initial; /* Redimensionamento */
+    perspective: initial; /* Perspectiva 3D */
+    transform: initial; /* Transformações */
+}

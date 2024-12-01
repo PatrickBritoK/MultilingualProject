@@ -1,0 +1,53 @@
+<!DOCTYPE html>  <!-- Declaração do tipo de documento HTML5 -->
+<html lang="pt-br"> <!-- Início do documento HTML, especificando o idioma como português -->
+
+<head>
+    <meta charset="UTF-8">  <!-- Define a codificação de caracteres como UTF-8, garantindo que caracteres especiais sejam exibidos corretamente -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna o layout responsivo em dispositivos móveis -->
+    <title>Exemplo de HTML</title> <!-- Título da página, que aparece na aba do navegador -->
+</head>
+
+<body> <!-- Início do corpo do documento, onde o conteúdo visível será inserido -->
+
+    <header> <!-- Cabeçalho da página, geralmente usado para incluir logo, navegação ou título -->
+        <h1>Bem-vindo ao Exemplo de HTML</h1> <!-- Cabeçalho principal (título da página) -->
+    </header>
+
+    <nav> <!-- Seção de navegação, utilizada para links de menu -->
+        <ul> <!-- Lista não ordenada de itens -->
+            <li><a href="#home">Início</a></li> <!-- Link para a seção "Início" -->
+            <li><a href="#sobre">Sobre</a></li> <!-- Link para a seção "Sobre" -->
+            <li><a href="#contato">Contato</a></li> <!-- Link para a seção "Contato" -->
+        </ul>
+    </nav>
+
+    <section id="home"> <!-- Seção "home", identificada por um ID para navegação interna -->
+        <h2>Início</h2> <!-- Título da seção -->
+        <p>Esta é a primeira seção do exemplo de HTML.</p> <!-- Parágrafo de texto -->
+    </section>
+
+    <section id="sobre"> <!-- Seção "sobre", com ID para navegação interna -->
+        <h2>Sobre nós</h2> <!-- Título da seção -->
+        <p>Informações sobre o exemplo de HTML e como funciona.</p> <!-- Outro parágrafo -->
+    </section>
+
+    <section id="contato"> <!-- Seção "contato", com ID para navegação interna -->
+        <h2>Entre em contato</h2> <!-- Título da seção -->
+        <form> <!-- Formulário para o usuário preencher -->
+            <label for="nome">Nome:</label> <!-- Rótulo para o campo de entrada "nome" -->
+            <input type="text" id="nome" name="nome" required> <!-- Campo de texto para o nome do usuário -->
+
+            <label for="email">E-mail:</label> <!-- Rótulo para o campo de entrada "email" -->
+            <input type="email" id="email" name="email" required> <!-- Campo de entrada para e-mail, com validação automática de formato -->
+
+            <button type="submit">Enviar</button> <!-- Botão para submeter o formulário -->
+        </form>
+    </section>
+
+    <footer> <!-- Rodapé da página -->
+        <p>&copy; 2024 Meu Site</p> <!-- Copyright -->
+    </footer>
+
+</body> <!-- Fim do corpo do documento -->
+
+</html> <!-- Fim do documento HTML -->

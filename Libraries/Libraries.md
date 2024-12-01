@@ -9,12 +9,6 @@ Libraries are collections of functionalities and utilities that developers can u
 - **Optional use**: Libraries are used as needed in different parts of the application without requiring adherence to a predetermined architecture.
 - **Greater freedom for the developer**: The developer has more control over the organization and structure of the application.
 
-## Examples of Libraries
-
-- **Lodash** (utilities for data manipulation)
-- **jQuery** (DOM manipulation and AJAX)
-- **Axios** (HTTP requests)
-
 ## Conclusion
 
 Libraries offer specific functionalities without enforcing a coding style or architecture, providing greater flexibility for the developer when building applications.
